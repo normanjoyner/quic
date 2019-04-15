@@ -318,6 +318,7 @@ constexpr size_t kFsStatsBufferLength = kFsStatsFieldsNumber * 2;
   V(source_string, "source")                                                   \
   V(stack_string, "stack")                                                     \
   V(start_time_string, "startTime")                                            \
+  V(state_string, "state")                                                     \
   V(status_string, "status")                                                   \
   V(stdio_string, "stdio")                                                     \
   V(subject_string, "subject")                                                 \
