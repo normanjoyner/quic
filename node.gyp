@@ -173,6 +173,7 @@
       'lib/internal/process/task_queues.js',
       'lib/internal/querystring.js',
       'lib/internal/quic/core.js',
+      'lib/internal/quic/util.js',
       'lib/internal/readline.js',
       'lib/internal/repl.js',
       'lib/internal/repl/await.js',
