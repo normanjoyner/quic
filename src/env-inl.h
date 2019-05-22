@@ -596,6 +596,7 @@ inline void Environment::set_http2_state(
   http2_state_ = std::move(buffer);
 }
 
+#if HAVE_OPENSSL
 inline QuicState* Environment::quic_state() const {
   return quic_state_.get();
 }
@@ -610,6 +611,7 @@ inline quic::QuicMonitor* Environment::quic_monitor() {
     quic_monitor_ = std::make_unique<quic::QuicMonitor>(this);
   return quic_monitor_.get();
 }
+#endif
 
 bool Environment::debug_enabled(DebugCategory category) const {
   DCHECK_GE(static_cast<int>(category), 0);
