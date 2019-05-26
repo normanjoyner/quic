@@ -529,7 +529,8 @@ struct CompileFnEntry {
 #define DEBUG_CATEGORY_NAMES(V)                                                \
   NODE_ASYNC_PROVIDER_TYPES(V)                                                 \
   V(INSPECTOR_SERVER)                                                          \
-  V(INSPECTOR_PROFILER)
+  V(INSPECTOR_PROFILER)                                                        \
+  V(NGTCP2_DEBUG)
 
 enum class DebugCategory {
 #define V(name) name,
