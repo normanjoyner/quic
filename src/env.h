@@ -426,6 +426,8 @@ constexpr size_t kFsStatsBufferLength = kFsStatsFieldsNumber * 2;
   V(quic_on_socket_close_function, v8::Function)                               \
   V(quic_on_socket_error_function, v8::Function)                               \
   V(quic_on_session_ready_function, v8::Function)                              \
+  V(quic_on_session_cert_function, v8::Function)                               \
+  V(quic_on_session_client_hello_function, v8::Function)                       \
   V(quic_on_session_close_function, v8::Function)                              \
   V(quic_on_session_error_function, v8::Function)                              \
   V(quic_on_session_extend_function, v8::Function)                             \
