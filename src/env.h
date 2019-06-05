@@ -433,6 +433,7 @@ constexpr size_t kFsStatsBufferLength = kFsStatsFieldsNumber * 2;
   V(quic_on_session_extend_function, v8::Function)                             \
   V(quic_on_session_handshake_function, v8::Function)                          \
   V(quic_on_session_keylog_function, v8::Function)                             \
+  V(quic_on_session_status_function, v8::Function)                             \
   V(quic_on_session_ticket_function, v8::Function)                             \
   V(quic_on_session_path_validation_function, v8::Function)                    \
   V(quic_on_stream_ready_function, v8::Function)                               \
