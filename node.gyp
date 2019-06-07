@@ -1131,6 +1131,7 @@
             'test/cctest/test_inspector_socket.cc',
             'test/cctest/test_inspector_socket_server.cc',
             'test/cctest/test_quic_buffer.cc',
+            'test/cctest/test-quic-verifyhostnameidentity.cc'
           ],
           'defines': [
             'HAVE_INSPECTOR=1',
